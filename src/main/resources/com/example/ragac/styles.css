@@ -1,0 +1,59 @@
+.dep-com {
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+}
+.dep-title{
+    -fx-text-overrun: ellipsis;
+    -fx-text-overrun-ellipsis: "...";
+}
+
+.em-com{
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+}
+
+Button{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 5 7 5 7;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+
+}
+.background{
+    -fx-background-color: #F9FBE7;
+}
+Button:hover{
+    -fx-cursor: hand;
+}
+/*#344D67*/
+.add-button {
+    -fx-background-color: #6ECB63;
+}
+
+.add-button:hover {
+    -fx-background-color: #409f35;
+}
+
+.det-button{
+    -fx-background-color: #579BB1;
+}
+.det-button:hover{
+    -fx-background-color: #3b6e7e;
+}
+
+.edit-button{
+    -fx-background-color: #FFBB5C;
+}
+.edit-button:hover{
+    -fx-background-color: #f38e00;
+}
+
+.delete-button{
+    -fx-background-color: #EA5455;
+}
+.delete-button:hover{
+    -fx-background-color: #c6181a;
+}
